@@ -5,12 +5,12 @@ import Title from "./Title";
 
 const Card = () => {
   return (
-    <>
+    <div className="card">
       <Title />
       <Count />
       <RestButton />
       <ButtonContainer />
-    </>
+    </div>
   );
 };
 export default Card;
