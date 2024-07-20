@@ -1,15 +1,17 @@
+import { useState } from "react";
 import ButtonContainer from "./ButtonContainer";
 import Count from "./Count";
 import RestButton from "./RestButton";
 import Title from "./Title";
 
 const Card = () => {
+  const [count, setCount] = useState(8);
   return (
     <div className="card">
       <Title />
-      <Count />
-      <RestButton />
-      <ButtonContainer />
+      <Count count={count} />
+      <RestButton setCount={setCount} />
+      <ButtonContainer setCount={setCount} />
     </div>
   );
 };
