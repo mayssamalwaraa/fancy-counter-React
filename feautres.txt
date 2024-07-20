@@ -1,0 +1,5 @@
+1.render the number
+2.increment the number by + button the limit is 5
+3.decrement the number by - button the limit is 0
+4.reset the number to 0 by reset button
+5.increment the number by pressing on the spacebar
